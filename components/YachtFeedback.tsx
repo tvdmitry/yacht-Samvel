@@ -31,10 +31,10 @@ const YachtFeedback = ({ isOpenForm, closeModal }: YachtFeedbackProps) => {
               leaveFrom='opacity-100 scale-100'
               leaveTo='opacity-0 scale-95'
             >
-              <Dialog.Panel className='relative w-full max-w-lg max-h-[90vh] overflow-y-auto overflow-x-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5'>
+              <Dialog.Panel className='relative w-full max-w-lg max-h-[90vh] overflow-y-auto overflow-x-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5 sm:w-full sm:h-full md:w-4/5 md:h-4/5 lg:w-3/4 lg:h-3/4 xl:w-2/3 xl:h-2/3'>
                 <script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script>
                 <iframe src="https://forms.yandex.ru/cloud/64d96ca8c417f3853139248f/?iframe=1" frameBorder="0"
-                        name="ya-form-64d96ca8c417f3853139248f" width="650" height={290}></iframe>
+                        name="ya-form-64d96ca8c417f3853139248f" className="w-full h-80"></iframe>
               </Dialog.Panel>
             </Transition.Child>
           </div>
