@@ -20,6 +20,7 @@ const Hero = () => {
 
         <CharterYachtButton
           title="АРЕНДОВАТЬ ЯХТУ"
+          textStyles={'tracking-[.03em]'}
           containerStyles="bg-primary-blue text-white rounded-full mt-10 text-xl font-bold"
           onHandleClick={ () => setIsOpenForm(true) }
         />

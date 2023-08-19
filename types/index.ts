@@ -26,6 +26,10 @@ export interface YachtDetailsProps {
   yacht: YachtProps;
 }
 
+export interface ShowMoreProps {
+  onHandleClick?: MouseEventHandler<HTMLButtonElement>;
+}
+
 export interface YachtFeedbackProps {
   isOpenForm: boolean;
   closeModal: () => void;
