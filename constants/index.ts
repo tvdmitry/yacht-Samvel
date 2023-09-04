@@ -341,7 +341,7 @@ export const yachts = [
   },
   {
     name: "Яхта премиум класса. Санта Люция",
-    price: 55000,
+    price: 43000,
     imageSrc: '/santa.jpg',
     imageDescriptionOne: '/santa1.jpg',
     imageDescriptionTwo: '/santa2.jpg',
@@ -368,7 +368,7 @@ export const yachts = [
   },
   {
     name: "Яхта Багратион",
-    price: 55000,
+    price: 45000,
     imageSrc: '/bagration.jpg',
     imageDescriptionOne: '/bagration1.jpg',
     imageDescriptionTwo: '/bagration2.jpg',
