@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Отплывите к незабываемому приключению с нашей <span className="text-blue-600/100"> эксклюзивной арендой яхт </span>  и насладитесь роскошью и свободой на водных горизонтах
+          Отправьтесь к незабываемому приключению с нашей <span className="text-blue-600/100"> эксклюзивной арендой яхт </span>  и насладитесь роскошью и свободой на водных горизонтах
         </h1>
 
         <p className="hero__subtitle">
